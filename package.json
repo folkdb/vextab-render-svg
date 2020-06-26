@@ -1,0 +1,59 @@
+{
+  "name": "@folkdb/vextab-render-svg",
+  "version": "0.0.0",
+  "description": "Render VexTab to SVG in a Node environment",
+  "author": "Daniel C. Narey <os@metamodern.design>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/folkdb/vextab-render-svg"
+  },
+  "type": "module",
+  "module": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "eslint --fix lib/*.js",
+    "release": "np",
+    "sync": "git pull && git add . && git commit -m 'automated sync' && git push",
+    "test": "ava test/*.js",
+    "update": "updtr"
+  },
+  "dependencies": {
+    "jsdom": "^16.2.2",
+    "vextab": "^3.0.6"
+  },
+  "devDependencies": {
+    "ava": "^3.8.2",
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-ava": "^10.3.0",
+    "eslint-plugin-import": "^2.20.2",
+    "np": "^5.2.1",
+    "pug": "^3.0.0",
+    "updtr": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "pug",
+    "filter",
+    "filters",
+    "render",
+    "markdown",
+    "markdown-it"
+  ],
+  "ava": {
+    "nodeArguments": [
+      "--experimental-modules"
+    ]
+  }
+}
