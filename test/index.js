@@ -3,5 +3,7 @@ import render from '../lib/index.js';
 
 
 test('Renders empty stave', async (t) => {
-  t.true(render('tabstave').startsWith('<svg'));
+  const result = await render('tabstave');
+  
+  t.true(result.startsWith('<svg'));
 });
