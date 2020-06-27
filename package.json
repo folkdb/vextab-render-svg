@@ -34,7 +34,6 @@
     "eslint-plugin-ava": "^10.3.0",
     "eslint-plugin-import": "^2.20.2",
     "np": "^6.2.4",
-    "pug": "^3.0.0",
     "updtr": "^3.1.0"
   },
   "engines": {
@@ -44,12 +43,12 @@
     "access": "public"
   },
   "keywords": [
-    "pug",
-    "filter",
-    "filters",
+    "vextab",
+    "node",
     "render",
-    "markdown",
-    "markdown-it"
+    "svg",
+    "backend",
+    "server"
   ],
   "ava": {
     "nodeArguments": [
