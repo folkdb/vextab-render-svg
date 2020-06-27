@@ -33,7 +33,7 @@
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-ava": "^10.3.0",
     "eslint-plugin-import": "^2.20.2",
-    "np": "^5.2.1",
+    "np": "^6.2.4",
     "pug": "^3.0.0",
     "updtr": "^3.1.0"
   },
