@@ -32,8 +32,8 @@
     "eslint": "^7.0.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-ava": "^10.3.0",
-    "eslint-plugin-import": "^2.20.2",
-    "np": "^6.2.4",
+    "eslint-plugin-import": "^2.22.0",
+    "np": "^6.2.5",
     "updtr": "^3.1.0"
   },
   "engines": {
