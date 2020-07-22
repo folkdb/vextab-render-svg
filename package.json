@@ -24,16 +24,16 @@
     "update": "updtr"
   },
   "dependencies": {
-    "jsdom": "^16.2.2",
+    "jsdom": "^16.3.0",
     "vextab": "^3.0.6"
   },
   "devDependencies": {
-    "ava": "^3.8.2",
-    "eslint": "^7.0.0",
+    "ava": "^3.10.1",
+    "eslint": "^7.5.0",
     "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-ava": "^10.3.0",
+    "eslint-plugin-ava": "^10.4.0",
     "eslint-plugin-import": "^2.22.0",
-    "np": "^6.2.5",
+    "np": "^6.3.2",
     "updtr": "^3.1.0"
   },
   "engines": {
